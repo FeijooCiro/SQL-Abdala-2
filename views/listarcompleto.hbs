@@ -1,0 +1,29 @@
+<table border="1">
+  <tr>
+    <td>Id</td>
+    <td>Nombre</td>
+    <td>Tipo</td>
+    <td>Calle dirección</td>
+    <td>Numero de calle</td>
+    <td>Código postal</td>
+    <td>Población</td>
+    <td>Localidad</td>
+    <td>Latitud</td>
+    <td>longitud</td>
+  </tr>
+  {{#each tiendas}}
+  <tr>  
+    <td> {{idTiendas}} </td> 
+    <td> {{nombre}} </td> 
+    <td> {{tipo}} </td>
+    <td> {{nombreCalleDireccion}} </td>
+    <td> {{numeroCalleDireccion}} </td>
+    <td> {{codigoPostal}} </td>
+    <td> {{poblacion}} </td>
+    <td> {{localidad}} </td>
+    <td> {{latitud}} </td>
+    <td> {{longitud}} </td>
+  </tr>   
+  {{/each}}
+</table>
+<a href="/">Retornar</a>
